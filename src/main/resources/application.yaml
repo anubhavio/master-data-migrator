@@ -4,14 +4,14 @@ spring:
 
 
 migration:
-  source-datasource:
+  source:
       host: master-data-mysql-master-data-migrator.i.aivencloud.com
       port: 10536
       database: visa_dev
       username: avnadmin
       password: AVNS_ChgdFdRuEmAg8DeULcM
 
-  target-datasource:
+  target:
       host: master-data-mysql-master-data-migrator.i.aivencloud.com
       port: 10536
       database: visa_prod
